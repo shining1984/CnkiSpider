@@ -31,3 +31,9 @@
 CnkiSpider.py        print "----CONTENT:获取第" + str(article["order"]) + "篇文章"
 
 ContentSpider.py     s = s.replace("【分类号】".decode("utf8"), "")
+
+
+
+##########################shining add######################################
+1. Run the CnkiSpider.py under the dir src/. If don't under the dir, the script will not find
+the data file.
