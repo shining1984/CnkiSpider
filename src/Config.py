@@ -20,9 +20,11 @@ class Config:
         #列表页保存路径，需要手动创建好文件夹
         self.config["outputListPagesDir"] = "../data/ListPages/"
         # 列表页Base URL，用于加上其他参数构造列表页URL
-        self.config["listBaseUrl"] = "http://epub.cnki.net/kns/brief/brief.aspx"
+        #self.config["listBaseUrl"] = "http://epub.cnki.net/kns/brief/brief.aspx"
+	self.config["listBaseUrl"] = "http://kns.cnki.net/kns/brief/default_result.aspx"
         # 内容页Base URL，用于加上其他参数构造内容页URL
-        self.config["contentBaseUrl"] = "http://epub.cnki.net/kns/detail/detail.aspx"
+        #self.config["contentBaseUrl"] = "http://epub.cnki.net/kns/detail/detail.aspx"
+	self.config["contentBaseUrl"] = "http://kns.cnki.net/KCMS/detail/detail.aspx"
         # 输出各个字段之间的分割符
         self.config["fieldsSeperator"] = "###"
         #输出的各个字段及顺序
